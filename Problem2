@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .header{
+            text-align: center;
+        }
+    </style>
+</head>
+<body style="background-color: aliceblue;">
+    <div class="header">
+        <h2 style="margin-bottom: 5px;">MY BLOG</h2>
+        <p>Welcome to the blog of <b style="background-color: black;color:white">Venkataramana</b></p>
+        
+    </div>
+    <div style="display: flex;justify-content:center">
+    <div style="width: 1000px;height:600px;">
+            <div style="display: flex; margin: 25px;gap: 10px;">
+                <img src="woods.jpg" alt="woods" style="height: 250px;width: 650px;">
+                <div>
+                <img src="woods.jpg" alt="woods2" style="height: 150px;width: 300px;">
+                <h3>My Name</h3>
+                <p>If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough.</p>
+                </div>
+            </div>
+            <div style="margin: 25px; display: flex;" >
+            
+                    <div style=" width: 650px;height: 250px; background-color: white;">
+                        <h3>TITLE HEADING</h3>
+                        <br>
+                        <p>Title descriptiom <b>Oct 2 2022 </b></p>
+                        <br>
+                       
+                        <p >If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough.</p>
+                       <br>
+                       <br>
+                        <button style="display: flex;justify-content:flex-start;margin-left: 5px;">READ MORE></button>
+                        <p style="display: flex;justify-content:flex-end; margin-right: 5px;">Comments <b style="background-color: black;color:white">0</b></p>
+                    </div>
+                    <div style="padding: 5px;">
+                        <div>
+                        <h3 style="background-color: gray;height: 50px;">Tags</h3>
+                        </div>
+                        <br>
+                        <div>
+                            <p>Travel Journey Happy Holliday Going Enjoy</p>
+                        </div>
+                    </div>
+        
+            </div>
+    </div>
+    </div>
+</body>
+</html>
